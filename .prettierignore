@@ -1,0 +1,5 @@
+# .prettierignore
+build
+dist
+.next
+node_modules
