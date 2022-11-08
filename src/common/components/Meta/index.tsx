@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { NextSeo } from 'next-seo';
 
-import { APP_CONFIG } from '@/common/app/constants/config';
+import { APP_CONFIG } from '@/common/constants/appConfig';
 
 type TMetaProps = {
   title: string;

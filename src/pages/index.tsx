@@ -3,8 +3,8 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useEffect } from 'react';
 
-import { APP_CONFIG } from '@/common/app/constants/config';
 import Meta from '@/common/components/Meta';
+import { APP_CONFIG } from '@/common/constants/appConfig';
 import { EVENT_NAME } from '@/modules/core/mixpanel/constants/event';
 import { Mixpanel } from '@/modules/core/mixpanel/mixpanel';
 import { Main } from '@/modules/home/templates/Main';

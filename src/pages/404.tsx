@@ -1,7 +1,13 @@
+import { Result } from 'antd';
+
 const Custom404 = () => {
   return (
-    <div className="flex h-screen w-full items-center justify-center">
-      <div className="mx-auto max-w-2xl ">Page not found</div>;
+    <div className="flex min-h-screen w-screen items-center justify-center">
+      <Result
+        status="404"
+        title="404"
+        subTitle="Sorry, the page you visited does not exist."
+      />
     </div>
   );
 };

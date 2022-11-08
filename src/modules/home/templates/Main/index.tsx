@@ -2,7 +2,7 @@ import { useRouter } from 'next/router';
 import nextI18NextConfig from 'next-i18next.config';
 import type { ReactNode } from 'react';
 
-import { APP_CONFIG } from '@/common/app/constants/config';
+import { APP_CONFIG } from '@/common/constants/appConfig';
 import useI18n, { ACTION_TYPE } from '@/modules/core/i18n/hooks/useI18n';
 import setLocaleCookie from '@/modules/core/i18n/utils/setLocaleCookie';
 
