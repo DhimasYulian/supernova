@@ -57,9 +57,9 @@ $PROJECT_ROOT
     │   ├── constants
     │   │   └── [constantName].ts
     │   ├── hooks
-    │   │   ├── [mutations]
+    │   │   ├── mutations
     │   │   │   └── use[MutationName]Mutation.tsx
-    │   │   ├── [queries]
+    │   │   ├── queries
     │   │   │   └── use[MutationName]Query.tsx
     │   │   └── use[HookName].tsx
     │   ├── templates
@@ -85,9 +85,9 @@ $PROJECT_ROOT
     │       ├── constants
     │       │   └── [constantName].ts
     │       ├── hooks
-    │       │   ├── [mutations]
+    │       │   ├── mutations
     │       │   │   └── use[MutationName]Mutation.tsx
-    │       │   ├── [queries]
+    │       │   ├── queries
     │       │   │   └── use[MutationName]Query.tsx
     │       │   └── use[HookName].tsx
     │       ├── templates
