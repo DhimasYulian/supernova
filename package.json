@@ -1,6 +1,14 @@
 {
   "name": "supernova",
   "version": "1.0.0",
+  "description": "Modular Next.js Boilerplate",
+  "homepage": "https://github.com/DhimasYulian/supernova",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DhimasYulian/supernova.git"
+  },
+  "author": "Dhimas Yulian (https://github.com/DhimasYulian)",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
