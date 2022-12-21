@@ -11,7 +11,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import type { AppProps } from 'next/app';
 import type { SSRConfig } from 'next-i18next';
 import { appWithTranslation } from 'next-i18next';
-import nextI18NextConfig from 'next-i18next.config';
+import nextI18nextConfig from 'next-i18next.config';
 import { useState } from 'react';
 
 import { I18nProvider } from '@/modules/core/i18n/hooks/useI18n';
@@ -33,4 +33,4 @@ const App = ({
   );
 };
 
-export default appWithTranslation(App, nextI18NextConfig);
+export default appWithTranslation(App, nextI18nextConfig);
