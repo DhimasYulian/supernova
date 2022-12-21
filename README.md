@@ -60,7 +60,7 @@ $PROJECT_ROOT
     │   │   ├── mutations
     │   │   │   └── use[MutationName]Mutation.tsx
     │   │   ├── queries
-    │   │   │   └── use[MutationName]Query.tsx
+    │   │   │   └── use[QueryName]Query.tsx
     │   │   └── use[HookName].tsx
     │   ├── templates
     │   │   └── [TemplateName]
@@ -88,7 +88,7 @@ $PROJECT_ROOT
     │       │   ├── mutations
     │       │   │   └── use[MutationName]Mutation.tsx
     │       │   ├── queries
-    │       │   │   └── use[MutationName]Query.tsx
+    │       │   │   └── use[QueryName]Query.tsx
     │       │   └── use[HookName].tsx
     │       ├── templates
     │       │   └── [TemplateName]
